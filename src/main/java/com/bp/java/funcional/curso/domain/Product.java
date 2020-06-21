@@ -13,15 +13,18 @@ public class Product {
 
     private BigDecimal price;
 
-    private Product(Long id, String description, ProductType type, BigDecimal price) {
+    private int amount;
+
+    private Product(Long id, String description, ProductType type, BigDecimal price, int amount) {
         this.id = id;
         this.description = description;
         this.type = type;
         this.price = price;
+        this.amount = amount;
     }
 
-    public static Product of(Long id, String description, ProductType type, BigDecimal bigDecimal){
-        return new Product(id,description,type,bigDecimal);
+    public static Product of(Long id, String description, ProductType type, BigDecimal bigDecimal, int amount){
+        return new Product(id,description,type,bigDecimal,amount);
     }
 
     public Long getId() {
