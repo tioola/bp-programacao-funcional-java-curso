@@ -5,40 +5,38 @@ author: Diogo Fávero Fabrile.
 
 * 01-Introdução do curso
     + [**x**] _Objetivo do curso e pré-requisitos_
-* 02-**Mude sua forma de pensar**.
-    + [_-_] _Imperativo vs Declarativo_
-    + [ ] _Vantagens de se programar orientado a funções._
-    + [ ] _POO acabou?_
-* 03-Teoria na pratica (comparando Imperativo e Declarativo)
-    + [ ] _Interação simplificada_
-    + [ ] _Mapeando nosso objeto (Imutabilidade)_
-    + [ ] _Reutilizando nossas funções_
-    + [ ] _Localizando elementos em nossas coleções(Entendendo Lazy Evaluation)_
-    + [ ] _Escopo lexico(estatico) e como utilizar_
-    + [ ] _Reduzindo nossas coleções Map Reduce (Contanto uma historia)_ 
+* 02-Mude sua forma de pensar.
+    + [**x**] _02.1-Imperativo vs Declarativo_
+    + [**x**] _02.2-Vantagens de se programar orientado a funções._
+    + [**x**] _02.3-POO acabou?_
+* 03-**Teoria na pratica (comparando Imperativo e Declarativo)**
+    + [**x**] _03.1-Iteração simplificada(evitando side effects)_
+    + [**x**] _03.2-Mapeando nosso objeto (Imutabilidade)_
+    + [**x**] _03.3-Localizando elementos em nossas coleções(Entendendo Lazy Evaluation)_
+    + [**x**] _03.4-Reutilizando nossas funções_
+    + [**x**] _03.5-Escopo lexico(estatico) e como utilizar_
+    + [**x**] _03.6-Reduzindo nossas coleções Map Reduce (Contanto uma historia)_
 * 04-Evolução das API's
-    + [ ] _Files, Novas formas de utilizar_
-    + [ ] _Collectors, como coletar nossos objetos_
-    + [ ] _Comparators, como comparar seus objetos_
+    + [**x**] _04.1-Files, Novas formas de utilizar_
+    + [**x**] _04.2-Collectors, como coletar nossos objetos_
+    + [**x**] _04.3-Comparators, como comparar seus objetos_
 * 05-Criando suas API's utilizando lambda
-    + [ ] _Por que temos os metodos default?_
-    + [ ] _Codigo conciso_
-    + [ ] _Strategy pattern vs Lambdas_
-    + [ ] _Interfaces fluidas_
-    + [ ] _O que fazemos com as exceptions?_
-    + [ ] _Lidando com Resources_
-    + [ ] _Compondo suas funções_
+    + [**x**] _05.1-Por que temos os metodos default?_
+    + [**x**] _05.2-Codigo conciso (strategy pattern e lambdas)_
+    + [**x**] _05.3-Builder em suas funções_
+    + [**x**] _05.4-O que fazemos com as exceptions?_
+    + [**x**] _05.5-Lidando com Resources_
 * 06-Seja Preguiçoso
-    + [ ] _Procrastine até a ultima hora_
-    + [ ] _Stream são preguiçosas, como elas se comportam?_
-    + [ ] _Streams infinitas_
+    + [**x**] _06.1-Procrastine até a ultima hora_
+    + [**x**]   _06.2-Lazy evaluation e streams infinitas_    
 * 07-Paralelização de algoritimos
-    + [ ] _Como utilizar a paralelização_
-    + [ ] _Cuidados com a pralelização_
+    + [**x**] _07.1-Como utilizar a paralelização_
+    + [**x**] _07.2-Cuidados com a paralelização_
 + 08-Dicas Finais
-    + [ ] _Lambdas e Method reference qual utilizar e porque?_
-    + [ ] _Prefira as funções que ja estao presentes no java_
-    + [ ] _Tente não retornar Streams diretamente em seu metodo_
-    + [ ] _Classes anonimas são inuteis agora?_
+    + [**x**] _08.1-Lambdas e Method reference qual utilizar e porque?_
+    + [**x**] _08.2-Prefira as funções que ja estao presentes no java_
+    + [**x**] _08.3-Não abuse das streams_
+    + [**x**] _08.4-Otimização Tail Call_
+    + [_-_] _08.5-Considerações finais_
     
 ---
